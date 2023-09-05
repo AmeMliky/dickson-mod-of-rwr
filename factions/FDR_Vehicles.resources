@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<vehicle key="jeep.vehicle" />
+ 	<vehicle key="apc.vehicle" />
+ 	<vehicle key="tank.vehicle" />
+ 	<vehicle key="transport_truck.vehicle" />  
+	<!--vehicle key="blhx_signal_tide.vehicle" /-->  
+
+	
+
+	
+</resources>

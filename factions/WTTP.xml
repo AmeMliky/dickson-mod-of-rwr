@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction 
+	name="Whicultivateper" 
+	color="0.19 1 0" 
+	firstnames_file="english_firstnames.txt" 
+	lastnames_file="english_lastnames.txt" 
+	chat_icon_filename="chat_icon_soldier_WTTP.png" 
+	chat_icon_filename_supporter="chat_icon_soldier_WTTP.png" 
+	chat_icon_commander_filename="chat_icon_commander_WTTP.png" 
+	campaign_completion_icon_filename="campaign_win_0.png" 
+	radio_queue_size="3"
+	supporter_high_skinpack_xp="100.0">
+	
+	<rank xp="0.0" name="porter">
+		<hud_icon filename="hud_rank0.png" />
+	</rank>
+	<rank xp="0.05" name="adherent">
+		<hud_icon filename="hud_rank1.png" />
+	</rank>
+	<rank xp="0.1" name="faithful">
+		<hud_icon filename="hud_rank2.png" />
+	</rank>
+	<rank xp="0.2" name="friar">
+		<hud_icon filename="hud_rank3.png" />
+	</rank>
+	<rank xp="0.3" name="lushfriar">
+		<hud_icon filename="hud_rank4.png" />
+	</rank>
+	<rank xp="0.4" name="caretaker">
+		<hud_icon filename="hud_rank5.png" />
+	</rank>
+	<rank xp="0.6" name="tree priest">
+		<hud_icon filename="guard presbyter" />
+	</rank>
+	<rank xp="0.8" name="foliage bishop">
+		<hud_icon filename="hud_rank7.png" />
+	</rank>
+	<rank xp="1.0" name="crown bishop">
+		<hud_icon filename="hud_rank8.png" />
+	</rank>
+	<rank xp="1.2" name="archbishop">
+		<hud_icon filename="hud_rank9.png" />
+	</rank>
+	<rank xp="1.4" name="dim archbishop">
+		<hud_icon filename="hud_rank10.png" />
+	</rank>
+	<rank xp="2.0" name="pope">
+		<hud_icon filename="hud_rank11.png" />
+	</rank>
+	<rank xp="5.0" name="darkwood pope">
+		<hud_icon filename="hud_rank12.png" />
+	</rank>
+	<rank xp="10.0" name="gtee henchman">
+		<hud_icon filename="hud_rank13.png" />
+	</rank>
+	<rank xp="20.0" name="gtee assistant">
+		<hud_icon filename="hud_rank14.png" />
+	</rank>
+	
+
+	<!-- -------------- -->
+	<!-- player group -->
+	<!-- -------------- -->
+	<soldier name="default" spawn_score="0.0">
+		<character filename="default_male.character">
+			<parameter class="default_squad_config_index" value="0" />
+		</character>
+		<ai filename="default.ai" />
+
+		<models file="WTTP_default_basic.models" />
+		<models file="WTTP_default.models" />
+		<models file="common_item.models" />
+
+		<resources file="common.resources" />
+		<resources file="WTTP_common.resources" />
+		<resources file="WTTP_Vehicles.resources" />
+		<resources>
+			<carry_item key='camouflage_suit.carry_item' enabled="1" />
+		</resources>
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="0.02" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+	</soldier>
+
+	<!-- -------------- -->
+	<!-- default ai group -->
+	<!-- -------------- -->
+	<soldier name="default_ai" spawn_score="1.0" copy_from="default">
+		<resources>
+			<!--weapon key="psg90.weapon" enabled="0" /-->
+			<!--carry_item key="camouflage_suit.carry_item" enabled="0"/-->
+		</resources>
+	</soldier>
+	
+	
+	
+	
+</faction>

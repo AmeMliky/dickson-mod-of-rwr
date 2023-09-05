@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	
+
+	<!--model filename="soldier_wickops.xml">
+		<requirement class="carry_item" slot="1" key="vest3_6"/>
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model-->   
+	<!--  blhx 2022/3/23-->
+	
+	
+	
+</models>

@@ -1,0 +1,16 @@
+将test mod解压到RunningWithRifles\media\packages\
+然后进入rwr点击test mod开启战役 
+两个阵营，用于开发战火英雄mod
+载具文件夹不着急加入，为了保证稳定性后续再加。
+
+使用该mod包开发rwr mod 如果遇到什么问题，可以联系QQ 1786190728 ，称呼老陆即可。
+calls支援文件夹
+factions阵营文件夹
+items 物品文件夹
+models模型文件夹
+particles粒子特效文件夹
+scripts脚本文件夹
+sounds声音文件夹
+textures图片文件夹
+weapons武器文件夹
+还有其他的文件夹未添加，参考原版的文件夹，等做到那部分再添加不迟。
