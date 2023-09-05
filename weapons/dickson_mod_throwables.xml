@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+	<!--projectile file="invasion_all_throwables.xml" /-->
+
+	<projectile file="artillery_b_shell.projectile" />
+	<projectile file="artillery_b_bigshell.projectile" />
+</projectiles>

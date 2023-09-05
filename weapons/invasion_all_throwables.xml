@@ -100,5 +100,5 @@
 <!--  <projectile file="g36_w_ag36_ai.projectile" /> -->
 <!--  <projectile file="m16a4_w_m203_ai.projectile" /> -->
 
-  <projectile file="dicksoner_mod_throwables.xml" />
+  <projectile file="dickson_mod_throwables.xml" />
 </projectiles>

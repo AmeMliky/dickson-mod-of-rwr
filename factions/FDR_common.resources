@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	
-	<!--weapon key='blhx_1_hm_zh_1.weapon'/-->
-	<weapon key='cs_1.weapon'/>
-	
+<!--此处用于注册 联邦 阵营总物品，日后完善以后会单分AI物品以及玩家物品和掉落物品等 -->
+<!--weapon key='Some_Weapon_s_Name.weapon'/-->
+	<!-- 主武器 -->
+		<weapon key='B_w_defend.weapon'/>
+		<weapon key='B_w_advancor.weapon'/>
+		<weapon key="B_w_stifler.weapon" />
+		<weapon key="B_w_staror.weapon" />
+		<weapon key='B_w_escortMkII.weapon'/>
+
+	<!-- 副手 -->
+		<weapon key='B_w2_crack.weapon'/>
+	<!-- 投掷物 -->
+
+	<!-- 电台支援 -->
+		<call key="artillery1b.call" />
+		<call key="artillery2b.call" />
+		<call key="artillery3b.call" />
 </resources>

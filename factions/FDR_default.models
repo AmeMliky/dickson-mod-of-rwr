@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <models>
-	<!-- -------------------------- -->
-	
+	<!-- /Framework--------------- -->
+	<!-- MK2--------------- -->
 
-	<!--model filename="soldier_wickops.xml">
-		<requirement class="carry_item" slot="1" key="vest3_6"/>
-		<requirement class="weapon" slot="0" key="l30p.weapon"/>
-	</model-->   
-	<!--  blhx 2022/3/23-->
-	
+	<!-- MK3--------------- -->
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3.carry_item"/>
+	</model>   
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_1.carry_item"/>
+	</model>   
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_2.carry_item"/>
+	</model>   
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_3.carry_item"/>
+	</model>   
+
+	<!-- MK3_alt--------------- -->
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_alt.carry_item"/>
+	</model>   
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_1_alt.carry_item"/>
+	</model>   
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_2_alt.carry_item"/>
+	</model>   
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_3_alt.carry_item"/>
+	</model>   
+
+	<!-- MKX--------------- -->
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X.carry_item"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_1.carry_item"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_2.carry_item"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_3.carry_item"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_4.carry_item"/>
+	</model>   
+
 	
 	
 </models>

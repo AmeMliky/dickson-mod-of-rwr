@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
 	<!-- 通用护甲-->
-    <carry_item file="common_armor_mk_0.carry_item" /> 
+	<carry_item file="common_armor_mk_0.carry_item" /> 
 	<carry_item file="common_armor_mk_1.carry_item" />
 	<carry_item file="common_armor_mk_2.carry_item" />
 	<carry_item file="common_armor_mk_3.carry_item" />

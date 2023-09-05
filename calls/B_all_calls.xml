@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call file="artillery1b.call" />
+	<call file="artillery2b.call" />
+	<call file="artillery3b.call" />
+	
+</calls>

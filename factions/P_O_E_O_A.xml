@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <faction 
-	name="P_O_E_O_A" 
+	name="P.O.E.O.A." 
 	color="0.88 0.76 0.25" 
 	firstnames_file="russian_firstnames.txt" 
 	lastnames_file="russian_lastnames.txt" 

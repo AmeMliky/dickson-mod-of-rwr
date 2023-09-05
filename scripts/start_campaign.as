@@ -2,7 +2,7 @@
 // --------------------------------------------
 // TODO: replace with your package's script folder here
 // --------------------------------------------
-#include "path://media/packages/test mod/scripts"
+#include "path://media/packages/Running_with_dickson_Ture/scripts"
 
 #include "my_gamemode.as"
 
@@ -19,7 +19,7 @@ void main(dictionary@ inputData) {
 	// TODO: replace with your package's folder here
 	// --------------------------------------------
 	array<string> overlays = {
-                "media/packages/test mod"
+                "media/packages/Running_with_dickson_Ture"
         };
         settings.m_overlayPaths = overlays;
 

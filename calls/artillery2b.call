@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is 精准两连速射炮-->
+<call name="artillery strike (2x16)" key="artillery2b.call"
+      initiation_comment1="Fire mission"
+      initiation_comment2="fire two rounds, artillery advised."
+      acknowledge_comment="Roger, wait two."
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way."
+	  notify_metagame="1">
+     
+    <round instances="3"
+           instance_class="grenade"
+           instance_key="artillery_shell.projectile" 
+           instance_spread="15 60 15" 
+           common_spread="0 10 0"
+           launch_time="1.0"
+           spawn_time="3.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="3"
+           instance_class="grenade"
+           instance_key="artillery_shell.projectile" 
+           instance_spread="8 30 8" 
+           common_spread="0 3 0"
+           launch_time="2.0"
+           spawn_time="4.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="12"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 20 9" 
+           common_spread="0 15 0"
+           launch_time="4.0"
+           spawn_time="6.0">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />   
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+    <round instances="12"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="10 30 10" 
+           common_spread="0 40 0"
+           launch_time="5.0"
+           spawn_time="7.0">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />        
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.8" />
+    </round>
+
+    <hud_icon filename="hud_artillery1b.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="300.0" />
+
+</call>
